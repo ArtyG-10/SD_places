@@ -12,7 +12,7 @@ function App() {
       <Nav />
       <Switch>
         <Route path="/areas" component={Areas}/>
-        <Route path="/restaurants" component={Areas}/>
+        <Route path="/restaurants" component={<Areas}/>
       </Switch>
       <Hero />
     </div>
