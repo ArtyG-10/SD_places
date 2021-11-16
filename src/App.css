@@ -10,8 +10,7 @@
 .nav {
   height: 70px;
   position: sticky;
-  border: 2px solid white;
-
+  border-bottom: 1px solid white;
 }
 
 .nav h1 {
@@ -66,4 +65,21 @@
   border-radius: 10px;
   margin: 20px;
   box-shadow: 5px 5px rgba(0, 0, 0, .3);
+  cursor: pointer;
+}
+
+.featured-areas {
+  position: relative;
+  top: 112px;
+  left: 125px;
+  font-size: 30px;
+  color: wheat;
+}
+
+.featured-restaurants {
+  position: relative;
+  left: 770px;
+  top: 79px;
+  font-size: 30px;
+  color: wheat;
 }
