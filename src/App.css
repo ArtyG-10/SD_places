@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
 
 * {
-  box-sizing: border-box;
   padding: 0;
   margin: 0;
   font-family: 'Antic';
+  background-color: #6967EF;
 }
 
 .nav {
-  background-color: #6D16F7;
   height: 70px;
   position: sticky;
+  border: 2px solid white;
+
 }
 
 .nav h1 {
@@ -44,24 +45,24 @@
 /* Hero */
 
 .hero {
-  background-color: #6D16F7;
   color: white;
   height: 91vh;
 }
 
 .hero h1 {
-  position: relative;
-  top: 9vh;
-  right: 4vw;
   font-size: 70px;
 }
 
+.heroImages {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .hero img {
-  height: 400px;
-  width: 600px;
-  position: relative;
-  top: 16vh;
-  left: 7vw;
+  height: 600px;
+  width: 800px;
   border-radius: 10px;
   margin: 20px;
   box-shadow: 5px 5px rgba(0, 0, 0, .3);
