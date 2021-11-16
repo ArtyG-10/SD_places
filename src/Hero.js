@@ -16,6 +16,8 @@ class Hero extends React.Component {
         <h1>Explore All There Is...</h1>
         <img src={LaJolla}></img>
         <img src={starlite}></img>
+        <h3 className="featured-areas">Areas</h3>
+        <h3 className="featured-restaurants">Restaurants</h3>
       </div>
     )
   }
